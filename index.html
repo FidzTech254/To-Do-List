@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>FidzTech</h1>
+        <p>welcome to FidzTech where we offer solution to your <br>
+         problems and enjoy using our products.<br></p>
+
+         <h3>Experience us.</h3>
+    </header>
+    <main>
+        <h2><i>My To Do List</i></h2>
+        <h3>Manage your tasks,</h3>
+        <p>And make them memoriable </p>
+
+        <h4>Add Task here!</h4>
+        <form id="formInput " class="form-input">
+            <input
+            id="inputTask"
+            class="input-task"
+            placeholder="enter your task..."
+            required
+            >
+
+            <button id="addTask" class="submit-btn">Add your tasks</button>
+        </form>
+        <section id="taskContainer" class="task-container">
+            <p class="task-area">Your daily tasks</p>
+            <ul id="taskList" class="add-task"></ul>
+        </section>
+
+    </main>
+</body>
+</html>
